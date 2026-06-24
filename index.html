@@ -151,9 +151,19 @@ footer{background:#020617;color:#334155;padding:28px 5vw;display:flex;flex-direc
 <section>
   <div class="container">
     <div class="about-wrap">
-      <div class="about-img-wrap" data-r>
-        <img src="images/gym-6.jpg" alt="Aroma Health &amp; Fitness Centre" class="about-img" style="object-position:center center" loading="lazy">
-        <div class="about-badge">🏆 Since 1995 &nbsp;·&nbsp; ✓ Verified</div>
+      <div data-r style="display:flex;flex-direction:column;gap:10px">
+        <div class="about-img-wrap">
+          <img src="images/gym-6.jpg" alt="Aroma Health &amp; Fitness Centre" class="about-img" style="object-position:center center" loading="lazy">
+          <div class="about-badge">🏆 Since 1995 &nbsp;·&nbsp; ✓ Verified</div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <div style="border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.1)">
+            <img src="images/gym-4.jpg" alt="Aroma Fitness Training" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;transition:transform .3s" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+          </div>
+          <div style="border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.1)">
+            <img src="images/gym-15.jpg" alt="Aroma Fitness Equipment" loading="lazy" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;transition:transform .3s" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">
+          </div>
+        </div>
       </div>
       <div class="about-text" data-r data-d="2">
         <p class="sec-eyebrow">About Us</p>
